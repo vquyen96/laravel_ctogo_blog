@@ -1,0 +1,20 @@
+.search-key{
+	font-size: 1.5rem;
+	color: #C4C4C4;
+	font-weight: 600;
+}
+.search-key span{
+	font-size: 2.25rem;
+	color: #000;
+	font-weight: bold;
+	margin: auto 20px;
+}
+
+@media (max-width: 767px) {
+	.search-key{
+		font-size: 0.875rem;
+	}
+	.search-key span{
+		font-size: 1.125rem;
+	}
+}

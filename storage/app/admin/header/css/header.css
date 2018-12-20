@@ -1,0 +1,68 @@
+#header{
+	height: 50px;
+	position: relative;
+	background: url(../../login/image/background.png) no-repeat center #794e009e;
+	background-size: cover;
+}
+.dark-background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-left: 230px;
+	background: #794e009e;
+}
+.logo{
+	width: 230px;
+	display: inline-block;
+	background: url(../image/logo.png) no-repeat center;
+	background-color: #ffd0a0;
+	background-size: auto 30px ;
+	height: 50px;
+}
+.user{
+	float: right;
+	padding: 0 40px;
+	height: 50px;
+	line-height: 50px;
+	color: #FFF;
+	cursor: pointer;
+	position: relative;
+}
+.user:hover{
+	background: #eaa933;
+}
+.user img{
+	width: 25px;
+}
+.user-dropdown{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	background: #f9f9f9;
+	color: #666;
+	height: 60px;
+	text-align: center;
+	display: none;
+}
+.user-dropdown a{
+	color: #666;
+	text-decoration: none;
+	line-height: normal;
+	padding:6px 12px;
+	border:1px solid #ddd;
+	background: #f4f4f4;
+	display: inline-block;
+}
+
+@media (max-width: 767px){
+	.logo{
+		width: 50px;
+		background-size: contain;
+	}
+	.dark-background{
+		margin-left: 50px;
+	}
+}

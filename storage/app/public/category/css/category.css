@@ -1,0 +1,14 @@
+.section-1{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.section-1{
+		height: 208px;
+	}
+}
